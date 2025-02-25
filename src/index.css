@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #021526;
+  font-family: "Ubuntu", serif;
+}
