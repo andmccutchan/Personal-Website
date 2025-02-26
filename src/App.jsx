@@ -7,10 +7,8 @@ const App = () => {
   return (
     <div className="container mx-auto">
       <Header />
-      <div>
-        <Home />
-      </div>
-      <Footer />
+      <Home />
+      {/* <Footer /> */}
     </div>
   );
 };
