@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../Components/ProjectCard";
+import HeroSection from "../Components/HeroSection";
 
 function Home() {
   const projectInfo = [
@@ -14,7 +15,8 @@ function Home() {
 
   return (
     <>
-      <div className="grid grid-cols-3 gap-6 w-full mx-auto">
+      <HeroSection />
+      {/* <div className="grid grid-cols-3 gap-6 w-full mx-auto">
         {projectInfo.map((project, index) => (
           <ProjectCard
             key={index}
@@ -25,7 +27,7 @@ function Home() {
             githubLink={project.github}
           />
         ))}
-      </div>
+      </div> */}
     </>
   );
 }

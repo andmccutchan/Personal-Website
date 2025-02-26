@@ -5,10 +5,10 @@ import Footer from "./Components/Footer";
 
 const App = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container flex flex-col mx-auto min-h-screen">
       <Header />
       <Home />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
