@@ -31,7 +31,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        <div className="hidden md:flex md:w-auto">
+        <div className="hidden md:flex md:3/4">
           <ul className="flex text-2xl justify-between w-full">
             <li className="me-8">
               <a className="relative group" href="#">
