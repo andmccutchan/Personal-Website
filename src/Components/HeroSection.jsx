@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <div className="flex w-full justify-center">
+    <div className="flex w-full justify-center" id="home">
       <div className="flex flex-col">
         <h1 className="text-6xl font-bold text-stone-50">Andrew McCutchan</h1>
         <div className="text-3xl text-emerald-400">
@@ -23,12 +23,12 @@ const HeroSection = () => {
           />
         </div>
       </div>
-      <img
+      {/* <img
         src="/Andrew-McCutchan-website-headshot.jpg"
         alt="Andrew McCutchan"
         width="400px"
         height="400px"
-      />
+      /> */}
     </div>
   );
 };

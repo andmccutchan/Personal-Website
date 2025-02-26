@@ -31,36 +31,36 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        <div className="hidden md:flex md:3/4">
+        <div className="hidden md:flex md:w-full lg:w-4/5">
           <ul className="flex text-2xl justify-between w-full">
-            <li className="me-8">
-              <a className="relative group" href="#">
+            <li>
+              <a className="relative group" href="#home">
                 Home
-                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-stone-50 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
-            <li className="me-8">
+            <li>
               <a className="relative group" href="#">
                 About Me
-                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-stone-50 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
-            <li className="me-8">
+            <li>
               <a className="relative group" href="#">
                 Projects
-                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-stone-50 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
-            <li className="me-8">
+            <li>
               <a className="relative group" href="#">
                 Tech Stack
-                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-stone-50 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
-            <li className="me-8">
+            <li>
               <a className="relative group" href="#">
                 Contact Me
-                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-stone-50 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
           </ul>
