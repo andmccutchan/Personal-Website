@@ -3,8 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <nav className="flex text-gray-50 w-full justify-between">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 w-full">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4 w-full">
         <div className="flex w-auto">
+          <p className="md:hidden text-3xl">Andrew McCutchan</p>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
@@ -30,7 +31,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        <div className="hidden md:flex md:w-auto md:">
+        <div className="hidden md:flex md:w-auto">
           <ul className="flex text-2xl justify-between w-full">
             <li className="me-8">
               <a className="relative group" href="#">
