@@ -1,9 +1,12 @@
 import React from "react";
+import Home from "./Pages/Home";
+import Header from "./Components/Header";
 
 const App = () => {
   return (
-    <div className="flex justify-center align-middle">
-      <h1 className="text-center text-8xl text-sky-500">Hello tailwind</h1>
+    <div className="flex-col">
+      <Header />
+      <Home />
     </div>
   );
 };
