@@ -2,10 +2,10 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex w-full">
+    <div className="flex w-full border border-cyan-300">
       <nav className="flex text-gray-50">
         <p>Andrew McCutchan</p>
-        <ul className="flex">
+        <ul className="flex justify-between w-full border border-cyan-300">
           <li>
             <a href="#">Home</a>
           </li>

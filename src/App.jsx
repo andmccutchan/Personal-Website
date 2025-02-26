@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 
 const App = () => {
   return (
-    <div className="flex-col">
+    <div className="container mx-auto">
       <Header />
       <Home />
     </div>
