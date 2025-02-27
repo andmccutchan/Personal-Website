@@ -29,7 +29,7 @@ const TechStackSection = () => {
               height="60"
             />
             <img
-              className="bg-stone-50"
+              className="bg-stone-50 border rounded p-1"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
               width="60"
               height="60"
