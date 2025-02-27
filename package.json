@@ -16,6 +16,7 @@
     "devicons": "^1.8.0",
     "lodash": "^4.17.21",
     "lodash.times": "^4.3.2",
+    "motion": "^12.4.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-fast-marquee": "^1.6.5",

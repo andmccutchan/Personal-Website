@@ -26,17 +26,6 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        {/* <p className="text-stone-50">
-          I'm a junior at Denison University studying computer science, with a
-          focus on software development. I specialize in building scalable,
-          responsive, and accessible websites that push the boundaries of modern
-          web development.
-        </p>
-        <p className="text-stone-50">
-          Outside of school and coding, I'm an avid musician and a plant
-          enthusiast. I play in a band on campus, and we've performed everywhere
-          from local venues to stages in New York.
-        </p> */}
         <div className="flex justify-center">
           <img
             src="/Andrew-McCutchan-website-headshot.jpg"
