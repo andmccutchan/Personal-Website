@@ -22,8 +22,8 @@ const ProjectsSection = () => {
 
   return (
     <>
-      <div></div>
-      <div className="grid grid-cols-3 gap-6 w-full mx-auto">
+      <h2 className="secondary-font text-5xl text-stone-50 my-2">Projects</h2>
+      <div className="grid grid-cols-3 gap-6 w-full mx-auto my-10">
         {projectInfo.map((project, index) => (
           <ProjectCard
             key={index}

@@ -4,7 +4,7 @@ const ProjectCard = ({ title, image, description, githubLink, liveDemo }) => {
   return (
     <>
       <div className="border border-gray-50 p-3">
-        <h3 className="text-gray-50 text-center text-4xl mb-4 max-md:text-2xl">
+        <h3 className="text-gray-50 text-center text-4xl mb-4 max-md:text-2xl secondary-font">
           {title}
         </h3>
         <img
