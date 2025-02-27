@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import { motion } from "motion/react";
 
 const ProjectsSection = () => {
   const projectInfo = [
@@ -22,7 +23,14 @@ const ProjectsSection = () => {
 
   return (
     <>
-      <h2 className="secondary-font text-5xl text-stone-50 my-2">Projects</h2>
+      <div className="flex">
+        <motion.h2
+          className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer"
+          whileHover={{ scale: 1.1 }}
+        >
+          Projects
+        </motion.h2>
+      </div>
       {/* <div className="grid grid-cols-3 gap-6 w-full mx-auto my-10">
         {projectInfo.map((project, index) => (
           <ProjectCard

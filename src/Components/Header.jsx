@@ -40,7 +40,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a className="relative group" href="#">
+              <a className="relative group" href="#contact-me">
                 About Me
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>

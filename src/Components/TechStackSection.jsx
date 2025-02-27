@@ -1,10 +1,18 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import { motion } from "motion/react";
 
 const TechStackSection = () => {
   return (
     <div className="w-full">
-      <h2 className="secondary-font text-5xl text-stone-50 my-2">Tech Stack</h2>
+      <div className="flex">
+        <motion.h2
+          className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer"
+          whileHover={{ scale: 1.1 }}
+        >
+          Technologies
+        </motion.h2>
+      </div>
       <div className="w-3/4 mx-auto">
         <Marquee gradient gradientColor="#121212">
           <div className="flex space-x-15 ps-15">
