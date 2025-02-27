@@ -4,9 +4,8 @@ const Footer = () => {
   return (
     <footer className="mt-auto py-3">
       <div className="flex justify-center">
-        <p className="text-stone-50">
-          &copy; {new Date().getFullYear()} | Developed by Andrew McCutchan |
-          Denison University
+        <p className="m-0 p-0 align-middle text-stone-50">
+          &copy; Andrew McCutchan {new Date().getFullYear()}
         </p>
       </div>
     </footer>

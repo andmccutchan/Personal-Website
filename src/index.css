@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 body {
-  background-color: #1f1f1f;
+  background-color: #121212;
   font-family: "Space Mono", serif;
+}
+
+.secondary-font {
+  font-family: "SaolDisplay-LightItalic";
 }
