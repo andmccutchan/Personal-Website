@@ -4,6 +4,7 @@ import ProjectsSection from "../Components/ProjectsSection";
 import TechStackSection from "../Components/TechStackSection";
 import AboutMeSection from "../Components/AboutMeSection";
 import ContactMeSection from "../Components/ContactMeSection";
+import ScrollToTop from "../Components/ScrollToTop";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <ProjectsSection />
       <TechStackSection />
       <ContactMeSection />
+      <ScrollToTop />
     </>
   );
 }

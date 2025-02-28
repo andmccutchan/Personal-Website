@@ -1,9 +1,10 @@
 import React from "react";
 import { motion } from "motion/react";
+import ContactForm from "./ContactForm";
 
 const ContactMeSection = () => {
   return (
-    <div>
+    <section>
       <div className="flex">
         <motion.h2
           className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer"
@@ -12,7 +13,8 @@ const ContactMeSection = () => {
           Contact Me
         </motion.h2>
       </div>
-    </div>
+      <ContactForm />
+    </section>
   );
 };
 

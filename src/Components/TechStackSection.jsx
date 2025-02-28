@@ -1,8 +1,48 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import { motion } from "motion/react";
+import TechCard from "./TechCard";
 
 const TechStackSection = () => {
+  const technologies = [
+    {
+      name: "React",
+      imgUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      bio: "",
+    },
+    {
+      name: "JavaScript",
+      imgUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      bio: "",
+    },
+    {
+      name: "MongoDB",
+      imgUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+      bio: "",
+    },
+    {
+      name: "ExpressJS",
+      imgUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      bio: "",
+    },
+    {
+      name: "NodeJS",
+      imgUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      bio: "",
+    },
+    {
+      name: "Tailwind",
+      imgUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      bio: "",
+    },
+  ];
+
   return (
     <div className="w-full">
       <div className="flex">
@@ -13,8 +53,16 @@ const TechStackSection = () => {
           Technologies
         </motion.h2>
       </div>
-      <div className="w-3/4 mx-auto">
-        <Marquee gradient gradientColor="#121212">
+      <div className="grid grid-cols-3 gap-4 w-3/4 mx-auto">
+        {/* {technologies.map((tech, element) => (
+          <TechCard
+            key={element}
+            name={tech.name}
+            imgUrl={tech.imgUrl}
+            bio={tech.bio}
+          />
+        ))} */}
+        {/* <Marquee gradient gradientColor="#121212">
           <div className="flex space-x-15 ps-15">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
@@ -68,7 +116,7 @@ const TechStackSection = () => {
               height="60"
             />
           </div>
-        </Marquee>
+        </Marquee> */}
       </div>
     </div>
   );
