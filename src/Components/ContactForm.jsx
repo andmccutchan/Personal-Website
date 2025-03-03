@@ -26,28 +26,44 @@ const ContactForm = () => {
     }
   };
   return (
-    <div className="border border-stone-50 text-stone-50">
+    <div className=" text-stone-50 w-1/4 mx-auto">
       <form className="flex flex-col" onSubmit={onSubmit}>
-        <input
-          type="text"
-          name="name"
-          id="nameBox"
-          className="text-stone-50 border-2 border-stone-50 rounded"
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          className="text-stone-50 border-2 border-stone-50 rounded"
-          required
-        />
-        <textarea
-          name="message"
-          className="text-stone-50 border-2 border-stone-50	rounded"
-          required
-        ></textarea>
+        <div className="flex flex-col mb-4">
+          <label htmlFor="namebox">Your Name</label>
+          <input
+            type="text"
+            name="name"
+            id="nameBox"
+            className="text-stone-50 border-2 border-stone-50 rounded"
+            required
+          />
+        </div>
+        <div className="flex flex-col mb-4">
+          <label htmlFor="email">Your Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            className="text-stone-50 border-2 border-stone-50 rounded"
+            required
+          />
+        </div>
+        <div className="flex flex-col">
+          <label htmlFor="message-box">Your Message</label>
+          <textarea
+            name="message"
+            id="message-box"
+            className="text-stone-50 border-2 border-stone-50	rounded h-30"
+            required
+          ></textarea>
+        </div>
 
-        <button type="submit">Submit Form</button>
+        <button
+          className="bg-stone-50 text-stone-900 w-1/2 mx-auto p-2 rounded"
+          type="submit"
+        >
+          Submit Form
+        </button>
       </form>
       <span>{result}</span>
     </div>

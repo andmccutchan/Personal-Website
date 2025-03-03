@@ -27,11 +27,11 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <img
+          {/* <img
             src="/Andrew-McCutchan-website-headshot.jpg"
             alt="Andrew McCutchan"
             className="w-96 h-96 object-cover"
-          />
+          /> */}
         </div>
       </div>
     </div>
