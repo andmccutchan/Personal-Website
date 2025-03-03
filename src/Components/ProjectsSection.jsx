@@ -23,7 +23,7 @@ const ProjectsSection = () => {
 
   return (
     <section>
-      <div className="flex">
+      <div className="flex justify-center">
         <motion.h2
           className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer"
           whileHover={{ scale: 1.1 }}

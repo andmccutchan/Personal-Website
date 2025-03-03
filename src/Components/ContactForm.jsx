@@ -59,13 +59,13 @@ const ContactForm = () => {
         </div>
 
         <button
-          className="bg-stone-50 text-stone-900 w-1/2 mx-auto p-2 rounded"
+          className="bg-stone-50 text-stone-900 w-1/2 mx-auto p-2 rounded mt-4"
           type="submit"
         >
           Submit Form
         </button>
       </form>
-      <span>{result}</span>
+      <p className="text-center mt-4">{result}</p>
     </div>
   );
 };
