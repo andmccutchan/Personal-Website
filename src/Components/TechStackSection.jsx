@@ -55,14 +55,14 @@ const TechStackSection = () => {
           </motion.h2>
         </div>
         <div className="grid grid-cols-3 gap-4 w-3/4 mx-auto">
-          {/* {technologies.map((tech, element) => (
+          {technologies.map((tech, element) => (
             <TechCard
               key={element}
               name={tech.name}
               imgUrl={tech.imgUrl}
               bio={tech.bio}
             />
-          ))} */}
+          ))}
           {/* <Marquee gradient gradientColor="#121212">
             <div className="flex space-x-15 ps-15">
               <img

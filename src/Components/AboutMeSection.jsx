@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { motion } from "motion/react";
 
 const AboutMeSection = () => {
-  const [openInfo, setOpenInfo] = useState(false);
   return (
     <section>
       <div className="flex justify-center">

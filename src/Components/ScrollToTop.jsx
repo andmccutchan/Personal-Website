@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
-const ScrollToTop = (props) => {
+const ScrollToTop = () => {
   const [showGoTop, setShowGoTop] = useState(false);
 
   useEffect(() => {

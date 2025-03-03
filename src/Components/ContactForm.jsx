@@ -26,7 +26,7 @@ const ContactForm = () => {
     }
   };
   return (
-    <div className=" text-stone-50 w-1/4 mx-auto">
+    <div className=" text-stone-50 w-1/4 max-lg:w-1/2 max-md:w-3/4 mx-auto">
       <form className="flex flex-col" onSubmit={onSubmit}>
         <div className="flex flex-col mb-4">
           <label htmlFor="namebox">Your Name</label>
