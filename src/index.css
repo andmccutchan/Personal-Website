@@ -8,6 +8,11 @@ body {
   font-family: "Poppins", serif;
 }
 
+p {
+  line-height: 1.9;
+  margin-bottom: 10px;
+}
+
 .secondary-font {
   font-family: "Playfair Display", serif;
   font-style: italic;

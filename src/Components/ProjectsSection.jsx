@@ -25,12 +25,9 @@ const ProjectsSection = () => {
   return (
     <section className="w-3/4 mx-auto my-10">
       <div className="flex justify-center">
-        <motion.h2
-          className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer"
-          whileHover={{ scale: 1.1 }}
-        >
+        <h2 className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer">
           Projects
-        </motion.h2>
+        </h2>
       </div>
       <div className="flex flex-col">
         {projectInfo.map((project, index) => (

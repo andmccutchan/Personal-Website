@@ -1,15 +1,8 @@
 import React from "react";
 
-const ProjectCard = ({
-  title,
-  image,
-  description,
-  githubLink,
-  liveDemo,
-  key,
-}) => {
+const ProjectCard = ({ title, image, description, githubLink, liveDemo }) => {
   return (
-    <>
+    <section className="my-3">
       <div className="flex flex-col">
         <h3 className="text-stone-50 text-4xl mb-4 max-md:text-2xl secondary-font">
           {title}
@@ -28,7 +21,7 @@ const ProjectCard = ({
               {liveDemo !== "" ? (
                 <a
                   href={liveDemo}
-                  className="w-1/2 text-center bg-emerald-400 text-stone-950 hover:bg-emerald-500 hover:cursor-pointer max-md:w-full me-1 p-3 rounded"
+                  className="w-1/2 text-center bg-emerald-400 text-stone-950 hover:bg-emerald-500 hover:cursor-pointer max-md:w-full me-1 p-2 rounded"
                   target="_blank"
                 >
                   View Demo
@@ -38,7 +31,7 @@ const ProjectCard = ({
                 href={githubLink}
                 className={`${
                   liveDemo === "" ? "w-full" : "w-1/2 ms-1"
-                } flex justify-center items-center p-3 text-center bg-emerald-400 text-stone-950 hover:bg-emerald-500 hover:text-black hover:cursor-pointer max-md:w-full rounded`}
+                } flex justify-center items-center p-2 text-center bg-emerald-400 text-stone-950 hover:bg-emerald-500 hover:text-black hover:cursor-pointer max-md:w-full rounded`}
                 target="_blank"
               >
                 View Source
@@ -47,7 +40,7 @@ const ProjectCard = ({
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

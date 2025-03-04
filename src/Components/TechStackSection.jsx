@@ -47,12 +47,9 @@ const TechStackSection = () => {
     <section>
       <div className="w-full">
         <div className="flex justify-center">
-          <motion.h2
-            className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer"
-            whileHover={{ scale: 1.1 }}
-          >
+          <h2 className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer">
             Technologies
-          </motion.h2>
+          </h2>
         </div>
         <div className="grid grid-cols-3 gap-4 w-3/4 mx-auto">
           {technologies.map((tech, element) => (

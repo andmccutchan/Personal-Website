@@ -1,19 +1,18 @@
 import React from "react";
 import { motion } from "motion/react";
 import ContactForm from "./ContactForm";
+import Socials from "./Socials";
 
 const ContactMeSection = () => {
   return (
     <section>
       <div className="flex justify-center">
-        <motion.h2
-          className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer"
-          whileHover={{ scale: 1.1 }}
-        >
+        <h2 className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer">
           Contact Me
-        </motion.h2>
+        </h2>
       </div>
       <ContactForm />
+      <Socials />
     </section>
   );
 };
