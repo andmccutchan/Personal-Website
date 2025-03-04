@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="flex text-gray-50 w-full justify-between">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4 w-full">
+    <nav className="w-full h-[60px] text-gray-50">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto w-full p-4">
         <div className="flex w-auto">
           <p className="md:hidden text-3xl">Menu</p>
           <button
