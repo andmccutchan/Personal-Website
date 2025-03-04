@@ -13,7 +13,7 @@ const ProjectsSection = () => {
       liveDemo: "https://locksmith.onrender.com/",
     },
     {
-      title: "Dijktra's",
+      title: "Shortest Path with Dijkstra's Algorithm",
       image: "/graph-project.png",
       description:
         "A CLI program in C++ used to compuute the shortest path from a given pair of coordinates",

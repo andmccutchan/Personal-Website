@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="w-full fixed top-0 left-0 text-gray-50 bg-gray-700 z-50">
+    <nav className="w-full h-[60px] text-gray-50 z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto w-full p-4">
         <div className="flex w-auto">
           <p className="md:hidden text-3xl">Menu</p>

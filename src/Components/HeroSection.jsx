@@ -3,10 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <section
-      className="flex w-full justify-center items-center hero-section"
-      id="home"
-    >
+    <section className="flex w-full justify-center items-center" id="home">
       <div className="flex flex-col">
         <div className="flex justify-center">
           <img

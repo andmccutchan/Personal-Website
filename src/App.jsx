@@ -12,10 +12,7 @@ const App = () => {
   return (
     <div className="flex flex-col">
       <Header />
-      <div className="flex flex-col h-screen">
-        <HeroSection />
-        <div className="w-full h-60 bg-gradient-to-t from-[#121212] to-transparent"></div>
-      </div>
+      <HeroSection />
       <div className="container mx-auto min-h-screen">
         <AboutMeSection />
         <ProjectsSection />
