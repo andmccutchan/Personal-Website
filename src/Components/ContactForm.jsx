@@ -65,7 +65,7 @@ const ContactForm = () => {
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 1.1 }}
         >
-          Submit Form
+          Submit
         </motion.button>
       </form>
       <p className="text-center mt-4">{result}</p>
