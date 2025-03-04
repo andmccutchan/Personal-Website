@@ -6,40 +6,36 @@ import TechCard from "./TechCard";
 const TechStackSection = () => {
   const technologies = [
     {
-      name: "React",
       imgUrl:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-      bio: "",
     },
     {
-      name: "JavaScript",
       imgUrl:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-      bio: "",
     },
     {
-      name: "MongoDB",
       imgUrl:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
-      bio: "",
     },
     {
-      name: "ExpressJS",
       imgUrl:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-      bio: "",
     },
     {
-      name: "NodeJS",
       imgUrl:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-      bio: "",
     },
     {
-      name: "Tailwind",
       imgUrl:
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-      bio: "",
+    },
+    {
+      imgUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    },
+    {
+      imgUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
     },
   ];
 
@@ -51,7 +47,7 @@ const TechStackSection = () => {
             Technologies
           </h2>
         </div>
-        <div className="grid grid-cols-3 gap-4 w-3/4 mx-auto">
+        <div className="grid grid-cols-4 gap-4 w-3/4 mx-auto">
           {technologies.map((tech, element) => (
             <TechCard
               key={element}

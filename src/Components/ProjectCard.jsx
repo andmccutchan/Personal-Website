@@ -12,7 +12,7 @@ const ProjectCard = ({ title, image, description, githubLink, liveDemo }) => {
             <img
               src={image}
               alt={`${title} project image`}
-              className="grayscale transition-all duration-300 ease-in-out hover:grayscale-0 text-stone-50 w-full h-56 object-cover"
+              className="grayscale transition-all duration-300 ease-in-out hover:grayscale-0 text-stone-50 w-full h-96 object-cover"
             />
           </div>
           <div className="flex flex-col w-1/2 ms-6 justify-between">
