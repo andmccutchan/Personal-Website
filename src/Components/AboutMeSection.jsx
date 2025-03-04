@@ -10,8 +10,8 @@ const AboutMeSection = () => {
       <div>
         <p className="text-stone-50 w-1/2 mx-auto">
           Hi! I'm Andrew. I am a full-stack developer based in Granville, Ohio.
-          I am currently in junior year of college, studying Computer Science at
-          Denison University. When I am not typing away at projects, you can
+          I am currently in my junior year of college, studying Computer Science
+          at Denison University. When I am not typing away at projects, you can
           find me playing music. I have been playing saxophone for almost 10
           years now and have picked up guitar in the last year. I also like to
           think I have a green thumb, as I have a multitude of plant species in
