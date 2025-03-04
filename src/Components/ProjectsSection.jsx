@@ -7,13 +7,14 @@ const ProjectsSection = () => {
     {
       title: "LockSmith",
       image: "/Locksmith-img.png",
-      description: "Password Managment system with encryption and hashing",
+      description:
+        "LockSmith is a fullstack password management appplication that I recently completed. This was a fun and challenging project for me since I had almost no knowledge of creating a full-stack application.",
       github: "https://github.com/andmccutchan/LockSmith",
       liveDemo: "https://locksmith.onrender.com/",
     },
     {
       title: "Dijktra's",
-      image: "",
+      image: "/graph-project.png",
       description:
         "A CLI program in C++ used to compuute the shortest path from a given pair of coordinates",
       github: "https://github.com/andmccutchan/Dijkstras-CLI-Program",
@@ -22,7 +23,7 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <section>
+    <section className="w-3/4 mx-auto my-10">
       <div className="flex justify-center">
         <motion.h2
           className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer"
@@ -31,7 +32,7 @@ const ProjectsSection = () => {
           Projects
         </motion.h2>
       </div>
-      <div className="grid grid-cols-3 gap-6 w-full mx-auto my-10">
+      <div className="flex flex-col">
         {projectInfo.map((project, index) => (
           <ProjectCard
             key={index}

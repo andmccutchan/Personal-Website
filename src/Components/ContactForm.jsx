@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "motion/react";
 
 const ContactForm = () => {
   const [result, setResult] = React.useState("");
@@ -58,12 +59,14 @@ const ContactForm = () => {
           ></textarea>
         </div>
 
-        <button
-          className="bg-stone-50 text-stone-900 w-1/2 mx-auto p-2 rounded mt-4"
+        <motion.button
+          className="bg-emerald-400 text-stone-900 w-1/2 mx-auto p-2 rounded mt-4 active:bg-emerald-500"
           type="submit"
+          whileHover={{ scale: 1.04 }}
+          whileTap={{ scale: 1.1 }}
         >
           Submit Form
-        </button>
+        </motion.button>
       </form>
       <p className="text-center mt-4">{result}</p>
     </div>

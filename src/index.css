@@ -1,8 +1,11 @@
-@import "tailwindcss";
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
 
 body {
   background-color: #121212;
-  font-family: "Space Mono", serif;
+  font-family: "Poppins", serif;
 }
 
 .secondary-font {
