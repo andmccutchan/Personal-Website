@@ -10,13 +10,18 @@ import ScrollToTop from "./Components/ScrollToTop";
 
 const App = () => {
   return (
-    <div className="container flex flex-col mx-auto min-h-screen">
+    <div className="flex flex-col">
       <Header />
-      <HeroSection />
-      <AboutMeSection />
-      <ProjectsSection />
-      <TechStackSection />
-      <ContactMeSection />
+      <div className="flex flex-col h-screen">
+        <HeroSection />
+        <div className="w-full h-60 bg-gradient-to-t from-[#121212] to-transparent"></div>
+      </div>
+      <div className="container mx-auto min-h-screen">
+        <AboutMeSection />
+        <ProjectsSection />
+        <TechStackSection />
+        <ContactMeSection />
+      </div>
       <ScrollToTop />
       <Footer />
     </div>
