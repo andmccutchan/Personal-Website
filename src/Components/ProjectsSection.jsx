@@ -23,7 +23,7 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <section className="w-3/4 mx-auto my-10">
+    <section className="w-3/4 mx-auto my-10" id="projects">
       <div className="flex justify-center">
         <h2 className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer">
           Projects

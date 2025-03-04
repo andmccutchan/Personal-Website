@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="w-full h-[60px] text-gray-50">
+    <nav className="w-full fixed top-0 left-0 text-gray-50 bg-gray-700 z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto w-full p-4">
         <div className="flex w-auto">
           <p className="md:hidden text-3xl">Menu</p>
@@ -34,31 +34,25 @@ const Header = () => {
         <div className="hidden md:flex md:w-full lg:w-4/5">
           <ul className="flex text-2xl justify-between w-full">
             <li>
-              <a className="relative group" href="#home">
-                Home
-                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-            </li>
-            <li>
-              <a className="relative group" href="#contact-me">
+              <a className="relative group" href="#about">
                 About Me
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
             <li>
-              <a className="relative group" href="#">
+              <a className="relative group" href="#projects">
                 Projects
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
             <li>
-              <a className="relative group" href="#">
+              <a className="relative group" href="#tech">
                 Tech Stack
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
             <li>
-              <a className="relative group" href="#">
+              <a className="relative group" href="#contact">
                 Contact Me
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
               </a>

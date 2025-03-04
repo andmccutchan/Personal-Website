@@ -5,7 +5,7 @@ import Socials from "./Socials";
 
 const ContactMeSection = () => {
   return (
-    <section>
+    <section id="contact">
       <div className="flex justify-center">
         <h2 className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer">
           Contact Me
