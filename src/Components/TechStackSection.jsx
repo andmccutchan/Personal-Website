@@ -38,7 +38,7 @@ const TechStackSection = () => {
   ];
 
   return (
-    <section className="my-30">
+    <section className="my-30" id="technologies">
       <div className="flex justify-center my-20">
         <h2 className="secondary-font text-5xl text-stone-50 my-4 relative">
           Technologies

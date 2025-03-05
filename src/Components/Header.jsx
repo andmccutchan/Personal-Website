@@ -64,7 +64,7 @@ const Header = () => {
               showMenu ? "flex-col" : ""
             } text-2xl gap-x-24 max-lg:gap-x-10`}
           >
-            {["About Me", "Projects", "Tech Stack", "Contact Me"].map(
+            {["About Me", "Projects", "Technologies", "Contact Me"].map(
               (item, index) => (
                 <li key={index} className="flex justify-end">
                   <a

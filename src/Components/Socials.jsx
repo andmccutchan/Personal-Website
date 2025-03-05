@@ -2,7 +2,7 @@ import React from "react";
 
 const Socials = () => {
   return (
-    <section>
+    <section className="my-6">
       <div className="flex justify-center space-x-3">
         <div className="flex justify-center items-center">
           <a
