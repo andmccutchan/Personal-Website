@@ -28,11 +28,23 @@ const AboutMeSection = () => {
             Science. When I'm not typing away at projects, you can find me
             playing music. I've been playing the saxophone for almost 10 years
             and picked up the guitar last year. I also like to think I have a
-            green thumb, as I have a variety of plant species in my dorm.
+            green thumb, as I have a variety of plant species in my dorm; so if
+            you ever want to talk music or plants with me feel free to reach
+            out!
           </p>
           <p className="mt-4">
-            I take pride in creating applications that are scalable, accessible,
-            and user-friendly. I strive to make sites with refreshing UIs.
+            When it comes to my work, I strive to create applications that are
+            not only refreshing and new but also accessible, scalable, and
+            clean. I often use{" "}
+            <span className="text-emerald-400 font-bold">React</span> and{" "}
+            <span className="text-emerald-400 font-bold">Tailwind</span> for
+            frontend development, along with{" "}
+            <span className="text-emerald-400 font-bold">Express</span>,{" "}
+            <span className="text-emerald-400 font-bold">MongoDB</span>, and{" "}
+            <span className="text-emerald-400 font-bold">Node.js</span> for
+            backend development. However, I am always eager to learn the latest
+            technologies and make a continuous effort to expand my knowledge
+            every day.
           </p>
         </div>
       </div>

@@ -10,7 +10,7 @@ const ProjectCard = ({ title, image, description, githubLink, liveDemo }) => {
 
         <div className="flex flex-col sm:flex-row sm:gap-6">
           {/* Project Image */}
-          <div className="w-full sm:w-1/2 mb-4 sm:mb-0 max-lg:hidden">
+          <div className="flex items-center w-full sm:w-1/2 mb-4 sm:mb-0 max-lg:hidden">
             <img
               src={image}
               alt={`${title} project screenshot`}
