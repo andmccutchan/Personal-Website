@@ -19,7 +19,7 @@ const TechStackSection = () => {
     },
     {
       imgUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     },
     {
       imgUrl:
@@ -40,11 +40,12 @@ const TechStackSection = () => {
   ];
 
   return (
-    <section id="tech">
+    <section className="my-30" id="tech">
       <div className="w-full">
         <div className="flex justify-center">
-          <h2 className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer">
+          <h2 className="secondary-font text-5xl text-stone-50 my-4 relative">
             Technologies
+            <span className="absolute -left-1 w-full h-1 -bottom-3.5 rounded bg-emerald-400"></span>
           </h2>
         </div>
         <div className="grid grid-cols-4 gap-4 w-3/4 mx-auto">

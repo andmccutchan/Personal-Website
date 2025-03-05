@@ -6,9 +6,11 @@ import Socials from "./Socials";
 const ContactMeSection = () => {
   return (
     <section id="contact">
+      {/* Section Title */}
       <div className="flex justify-center">
-        <h2 className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer">
+        <h2 className="secondary-font text-5xl text-stone-50 my-4 relative">
           Contact Me
+          <span className="absolute -left-1 w-full h-1 -bottom-2 rounded bg-emerald-400"></span>
         </h2>
       </div>
       <ContactForm />

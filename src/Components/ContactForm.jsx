@@ -35,7 +35,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             id="nameBox"
-            className="text-stone-50 border-2 border-stone-50 rounded"
+            className="text-stone-50 border-2 border-gray-500 bg-gray-700 rounded "
             required
           />
         </div>
@@ -45,7 +45,7 @@ const ContactForm = () => {
             type="email"
             name="email"
             id="email"
-            className="text-stone-50 border-2 border-stone-50 rounded"
+            className="text-stone-50 border-2 border-gray-500 bg-gray-700 rounded"
             required
           />
         </div>
@@ -54,7 +54,7 @@ const ContactForm = () => {
           <textarea
             name="message"
             id="message-box"
-            className="text-stone-50 border-2 border-stone-50	rounded h-30"
+            className="text-stone-50 border-2 border-gray-500 bg-gray-700	rounded h-30"
             required
           ></textarea>
         </div>

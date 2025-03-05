@@ -3,20 +3,16 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <section className="flex w-full justify-center items-center" id="home">
-      <div className="flex flex-col">
-        <div className="flex justify-center">
-          <img
-            src="/Andrew-McCutchan-website-headshot.jpg"
-            alt="Andrew McCutchan"
-            className="w-96 h-96 object-cover rounded-full"
-          />
-        </div>
+    <section
+      className="flex w-full min-h-screen -mt-16 justify-center items-center"
+      id="home"
+    >
+      <div className="flex flex-col justify-center">
         <div className="flex flex-col mt-5">
-          <h1 className="text-8xl font-bold text-stone-50 max-lg:text-5xl">
+          <h1 className="text-9xl font-bold text-stone-50 max-lg:text-8xl max-md:text-7xl max-sm:text-5xl">
             Andrew McCutchan
           </h1>
-          <div className="text-4xl text-emerald-400 secondary-font font-thin">
+          <div className="text-4xl text-emerald-400 secondary-font">
             <TypeAnimation
               sequence={[
                 "full-stack developer",

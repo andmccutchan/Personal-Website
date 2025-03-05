@@ -7,8 +7,27 @@ const ProjectsSection = () => {
     {
       title: "LockSmith",
       image: "/Locksmith-img.png",
-      description:
-        "LockSmith is a fullstack password management appplication that I recently completed. This was a fun and challenging project for me since I had almost no knowledge of creating a full-stack application.",
+      description: (
+        <>
+          <p>
+            <span className="text-emerald-500">LockSmith</span> is a full-stack
+            password management app I built from scratch. This project was a
+            great learning experience, as it introduced me to full-stack
+            development.
+          </p>
+          <h4 className="font-bold">Key Features:</h4>
+          <ul className=" list-disc list-inside">
+            <li>Secure user authentication</li>
+            <li>Password vault with encryption</li>
+            <li>Strong password generator</li>
+            <li>Intuitive, responsive UI</li>
+          </ul>
+          <p>
+            LockSmith helped me dive into backend technologies, secure data
+            management, and creating user-friendly applications.
+          </p>
+        </>
+      ),
       github: "https://github.com/andmccutchan/LockSmith",
       liveDemo: "https://locksmith.onrender.com/",
     },
@@ -23,10 +42,11 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <section className="w-3/4 mx-auto my-10" id="projects">
-      <div className="flex justify-center">
-        <h2 className="secondary-font text-5xl text-stone-50 my-2 hover:cursor-pointer">
+    <section className="w-3/4 mx-auto my-30" id="projects">
+      <div className="flex justify-center my-20">
+        <h2 className="secondary-font text-5xl text-stone-50 relative z-10">
           Projects
+          <span className="absolute -left-1 w-full h-1 -bottom-3 rounded bg-emerald-400"></span>
         </h2>
       </div>
       <div className="flex flex-col">

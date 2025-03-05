@@ -12,8 +12,8 @@ const App = () => {
   return (
     <div className="flex flex-col">
       <Header />
-      <HeroSection />
       <div className="container mx-auto min-h-screen">
+        <HeroSection />
         <AboutMeSection />
         <ProjectsSection />
         <TechStackSection />
