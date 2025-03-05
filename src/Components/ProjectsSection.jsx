@@ -10,7 +10,7 @@ const ProjectsSection = () => {
       description: (
         <>
           <p>
-            <span className="text-emerald-500">LockSmith</span> is a full-stack
+            <span className="text-emerald-400">LockSmith</span> is a full-stack
             password management app I built from scratch. This project was a
             great learning experience, as it introduced me to full-stack
             development.
@@ -34,8 +34,30 @@ const ProjectsSection = () => {
     {
       title: "Shortest Path with Dijkstra's Algorithm",
       image: "/graph-project.png",
-      description:
-        "A CLI program in C++ used to compuute the shortest path from a given pair of coordinates",
+      description: (
+        <>
+          <p>
+            <span className="text-emerald-400">
+              Shortest Path with Dijkstra's Algorithm
+            </span>{" "}
+            is a C++ command-line interface (CLI) program designed to compute
+            the shortest path between a given pair of coordinates.
+          </p>
+          <h4 className="font-bold">Key Features:</h4>
+          <ul className="mt-2 list-disc list-inside">
+            <li>
+              Implements Dijkstra's algorithm for finding the shortest path
+            </li>
+            <li>Command-line interface for easy interaction</li>
+            <li>Takes input coordinates and calculates the optimal path</li>
+            <li>Efficient for finding paths in weighted graphs</li>
+          </ul>
+          <p className="mt-2">
+            This project helped me deepen my understanding of graph algorithms
+            and sharpen my C++ programming skills.
+          </p>
+        </>
+      ),
       github: "https://github.com/andmccutchan/Dijkstras-CLI-Program",
       liveDemo: "",
     },

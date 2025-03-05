@@ -1,6 +1,4 @@
 import React from "react";
-import Marquee from "react-fast-marquee";
-import { motion } from "motion/react";
 import TechCard from "./TechCard";
 
 const TechStackSection = () => {
@@ -40,79 +38,17 @@ const TechStackSection = () => {
   ];
 
   return (
-    <section className="my-30" id="tech">
-      <div className="w-full">
-        <div className="flex justify-center">
-          <h2 className="secondary-font text-5xl text-stone-50 my-4 relative">
-            Technologies
-            <span className="absolute -left-1 w-full h-1 -bottom-3.5 rounded bg-emerald-400"></span>
-          </h2>
-        </div>
-        <div className="grid grid-cols-4 gap-4 w-3/4 mx-auto">
-          {technologies.map((tech, element) => (
-            <TechCard
-              key={element}
-              name={tech.name}
-              imgUrl={tech.imgUrl}
-              bio={tech.bio}
-            />
-          ))}
-          {/* <Marquee gradient gradientColor="#121212">
-            <div className="flex space-x-15 ps-15">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-                height="60"
-                width="60"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                height="60"
-                width="60"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                width="60"
-                height="60"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
-                width="60"
-                height="60"
-              />
-              <img
-                className="bg-stone-50 border rounded p-1"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
-                width="60"
-                height="60"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-                width="60"
-                height="60"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
-                width="60"
-                height="60"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-                width="60"
-                height="60"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                width="60"
-                height="60"
-              />
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                width="60"
-                height="60"
-              />
-            </div>
-          </Marquee> */}
-        </div>
+    <section className="my-30">
+      <div className="flex justify-center my-20">
+        <h2 className="secondary-font text-5xl text-stone-50 my-4 relative">
+          Technologies
+          <span className="absolute -left-1 w-full h-1 -bottom-3.5 rounded bg-emerald-400"></span>
+        </h2>
+      </div>
+      <div className="grid grid-cols-4 gap-4 w-1/2 mx-auto max-lg:grid-cols-2">
+        {technologies.map((tech, index) => (
+          <TechCard key={index} imgUrl={tech.imgUrl} />
+        ))}
       </div>
     </section>
   );

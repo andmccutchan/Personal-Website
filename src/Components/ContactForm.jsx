@@ -30,7 +30,9 @@ const ContactForm = () => {
     <div className=" text-stone-50 w-1/4 max-lg:w-1/2 max-md:w-3/4 mx-auto">
       <form className="flex flex-col" onSubmit={onSubmit}>
         <div className="flex flex-col mb-4">
-          <label htmlFor="namebox">Your Name</label>
+          <label htmlFor="namebox" className="text-2xl mb-1 ">
+            Your Name
+          </label>
           <input
             type="text"
             name="name"
@@ -40,7 +42,9 @@ const ContactForm = () => {
           />
         </div>
         <div className="flex flex-col mb-4">
-          <label htmlFor="email">Your Email</label>
+          <label htmlFor="email" className="text-2xl mb-1 ">
+            Your Email
+          </label>
           <input
             type="email"
             name="email"
@@ -50,7 +54,9 @@ const ContactForm = () => {
           />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="message-box">Your Message</label>
+          <label htmlFor="message-box" className="text-2xl mb-1 ">
+            Your Message
+          </label>
           <textarea
             name="message"
             id="message-box"

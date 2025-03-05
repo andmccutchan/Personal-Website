@@ -2,9 +2,9 @@ import React from "react";
 
 const ProjectCard = ({ title, image, description, githubLink, liveDemo }) => {
   return (
-    <section className="my-6 bg-gray-700 p-4 rounded-2xl">
+    <section className="my-6 bg-gray-700 p-6 rounded-2xl">
       <div className="flex flex-col">
-        <h3 className="text-stone-50 text-4xl mb-3 secondary-font underline max-lg:text-center">
+        <h3 className="text-stone-50 text-4xl mb-6 secondary-font underline max-lg:text-center">
           {title}
         </h3>
 
