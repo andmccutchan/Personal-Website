@@ -21,9 +21,9 @@ const ProjectCard = ({ title, image, description, githubLink, liveDemo }) => {
 
           {/* Project Description and Links */}
           <div className="flex flex-col w-1/2 max-lg:w-full justify-between">
-            <p id={`description-${title}`} className="text-stone-50 mb-4">
+            <div id={`description-${title}`} className="text-stone-50 mb-4">
               {description}
-            </p>
+            </div>
 
             <div className="flex flex-col sm:flex-row gap-2">
               {/* Live Demo Button */}

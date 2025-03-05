@@ -1,12 +1,27 @@
-import React, { useState } from "react";
-import { motion } from "motion/react";
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
+
   const toggleMenu = () => {
-    setShowMenu(!showMenu);
-    console.log(showMenu);
+    setShowMenu((prev) => !prev);
   };
+
+  // Reset menu state when the window is resized to a width greater than the mobile breakpoint
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setShowMenu(false); // Close the menu if width is larger than mobile size
+      }
+    };
+
+    // Attach resize listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <nav className="flex w-full p-4 justify-center items-center text-gray-50 z-50">
@@ -14,12 +29,11 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <div className="flex items-center md:hidden">
           <motion.button
-            data-collapse-toggle="navbar-default"
             type="button"
-            onClick={toggleMenu}
             className="p-2 mx-2 w-10 h-10 flex items-center justify-center rounded-lg text-stone-50 hover:border-stone-50"
+            onClick={toggleMenu}
             aria-controls="navbar-default"
-            aria-expanded="false"
+            aria-expanded={showMenu ? "true" : "false"}
             whileHover={{ opacity: 0.7 }}
           >
             <span className="sr-only">Open main menu</span>
@@ -43,18 +57,16 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <div
-          className={`flex w-full justify-center max-md:${
-            showMenu && "hidden"
-          } max-md:flex-col`}
+          className={`md:flex w-full justify-center ${!showMenu && "hidden"}`}
         >
           <ul
-            className={`flex text-2xl gap-x-24 max-lg:gap-x-10 max-md:${
-              showMenu ? "flex-col" : "hidden"
-            }`}
+            className={`flex ${
+              showMenu ? "flex-col" : ""
+            } text-2xl gap-x-24 max-lg:gap-x-10`}
           >
             {["About Me", "Projects", "Tech Stack", "Contact Me"].map(
               (item, index) => (
-                <li key={index}>
+                <li key={index} className="flex justify-end">
                   <a
                     className="relative group"
                     href={`#${item.toLowerCase().replace(" ", "")}`}
