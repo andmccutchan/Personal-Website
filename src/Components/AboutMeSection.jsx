@@ -28,14 +28,6 @@ const AboutMeSection = () => {
           <p>
             Hi! I'm Andrew, a full-stack developer based in Granville, Ohio. I'm
             currently a junior at Denison University, studying Computer Science.
-            When I'm not working on projects, you can find me playing music.
-            I've been playing the saxophone for almost 10 years and recently
-            picked up the guitar. I also have a love for plants—I keep a variety
-            in my dorm! If you ever want to talk about music or plants, feel
-            free to reach out.
-          </p>
-
-          <p className="mt-4">
             In my work, I strive to build applications that are accessible,
             scalable, and clean. I often use{" "}
             <span className="text-emerald-400 font-bold">React</span> and{" "}
@@ -46,6 +38,14 @@ const AboutMeSection = () => {
             <span className="text-emerald-400 font-bold">Node.js</span> for the
             backend. I'm always eager to explore new technologies and make
             continuous efforts to expand my knowledge.
+          </p>
+
+          <p className="mt-4">
+            When I'm not working on projects, you can find me playing music.
+            I've been playing the saxophone for almost 10 years and recently
+            picked up the guitar. I also have a love for plants—I keep a variety
+            in my dorm! If you ever want to talk about music or plants, feel
+            free to reach out.
           </p>
         </div>
       </div>
