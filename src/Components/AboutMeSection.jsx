@@ -12,19 +12,12 @@ const AboutMeSection = () => {
       </div>
 
       {/* Content Wrapper */}
-      <div className="flex flex-col md:flex-row items-center gap-8">
+      <div className="flex max-xl:flex-col items-center">
         {/* Image Section */}
         {/* Uncomment when needed */}
-        {/* <div className="flex justify-center md:w-1/2">
-          <img
-            src="/Andrew-McCutchan-website-headshot.jpg"
-            alt="Andrew McCutchan"
-            className="w-80 h-80 md:w-96 md:h-96 object-cover rounded"
-          />
-        </div> */}
 
         {/* Text Section */}
-        <div className="text-stone-50 leading-relaxed text-2xl">
+        <div className="text-stone-50 text-2xl w-4/5">
           <p>
             Hi! I'm Andrew, a full-stack developer based in Granville, Ohio. I'm
             currently a junior at Denison University, studying Computer Science.
@@ -47,6 +40,13 @@ const AboutMeSection = () => {
             in my dorm! If you ever want to talk about music or plants, feel
             free to reach out.
           </p>
+        </div>
+        <div className="flex justify-center md:w-1/2">
+          <img
+            src="/Andrew-McCutchan-website-headshot.jpg"
+            alt="Andrew McCutchan"
+            className="w-96 h-96 ms-10 object-cover rounded border"
+          />
         </div>
       </div>
     </section>
