@@ -34,11 +34,12 @@ const AboutMeSection = () => {
           </p>
 
           <p className="mt-4">
-            When I'm not working on projects, you can find me playing music.
-            I've been playing the saxophone for almost 10 years and recently
-            picked up the guitar. I also have a love for plants—I keep a variety
-            in my dorm! If you ever want to talk about music or plants, feel
-            free to reach out.
+            When I'm not working on projects, you can find me playing music,
+            getting outside with friends, or tending to my many plants. I've
+            been playing the saxophone for almost 10 years and recently picked
+            up the guitar. I also keep a variety of plants in my dorm! If you
+            ever want to talk about music or plants, or just chat, feel free to
+            reach out.
           </p>
         </div>
         <div className="flex justify-center md:w-1/2">
