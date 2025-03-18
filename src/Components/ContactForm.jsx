@@ -42,7 +42,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             id="nameBox"
-            className="text-stone-50 border-2 border-gray-500 bg-gray-700 rounded px-2 py-1"
+            className="text-stone-50 border border-gray-600 bg-gray-800 rounded px-2 py-1"
             required
           />
         </div>
@@ -56,7 +56,7 @@ const ContactForm = () => {
             type="email"
             name="email"
             id="email"
-            className="text-stone-50 border-2 border-gray-500 bg-gray-700 rounded px-2 py-1"
+            className="text-stone-50 border border-gray-600 bg-gray-800 rounded px-2 py-1"
             required
           />
         </div>
@@ -69,20 +69,18 @@ const ContactForm = () => {
           <textarea
             name="message"
             id="messageBox"
-            className="text-stone-50 border-2 border-gray-500 bg-gray-700 rounded px-2 py-1 h-32"
+            className="text-stone-50 border border-gray-600 bg-gray-800 rounded px-2 py-1 h-32"
             required
           ></textarea>
         </div>
 
         {/* Submit Button */}
-        <motion.button
-          className="bg-emerald-400 text-stone-900 w-1/2 mx-auto p-2 rounded mt-4 active:bg-emerald-500"
+        <button
+          className="bg-emerald-400 border-2 border-emerald-600 text-stone-900 w-1/2 mx-auto p-2 rounded mt-4 active:bg-emerald-500 hover:bg-emerald-500"
           type="submit"
-          whileHover={{ scale: 1.04 }}
-          whileTap={{ scale: 1.1 }}
         >
           Submit
-        </motion.button>
+        </button>
       </form>
 
       {/* Submission Result Message */}

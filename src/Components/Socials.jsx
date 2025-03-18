@@ -12,12 +12,20 @@ const Socials = () => {
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
               width="60"
+              alt="LinkedIn logo"
+              className="text-white"
             />
           </a>
         </div>
         <div className="flex justify-center items-center">
           <a href="https://github.com/andmccutchan" target="_blank">
-            <svg viewBox="0 0 128 128" width="60" height="60">
+            <svg
+              viewBox="0 0 128 128"
+              width="60"
+              height="60"
+              alt="LinkedIn logo"
+              className="text-white"
+            >
               <g fill="oklch(0.985 0.001 106.423)">
                 <path
                   fillRule="evenodd"

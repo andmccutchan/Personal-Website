@@ -32,7 +32,7 @@ const ProjectsSection = () => {
       liveDemo: "https://locksmith.onrender.com/",
     },
     {
-      title: "Shortest Path with Dijkstra's Algorithm",
+      title: "Dijkstra's Algorithm",
       image: "/graph-project.png",
       description: (
         <>
@@ -71,7 +71,7 @@ const ProjectsSection = () => {
           <span className="absolute -left-1 w-full h-1 -bottom-3 rounded bg-emerald-400"></span>
         </h2>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-y-6">
         {projectInfo.map((project, index) => (
           <ProjectCard
             key={index}
