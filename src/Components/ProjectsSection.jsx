@@ -66,9 +66,8 @@ const ProjectsSection = () => {
   return (
     <section className="w-3/4 mx-auto my-30" id="projects">
       <div className="flex justify-center my-20">
-        <h2 className="secondary-font text-5xl text-stone-50 relative z-10">
+        <h2 className="flex secondary-font text-5xl text-stone-50 border-b-2 border-emerald-400 0.5">
           Projects
-          <span className="absolute -left-1 w-full h-1 -bottom-3 rounded bg-emerald-400"></span>
         </h2>
       </div>
       <div className="flex flex-col gap-y-6">

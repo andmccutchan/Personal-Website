@@ -5,9 +5,8 @@ const AboutMeSection = () => {
     <section id="aboutme" className="py-12 px-4 my-12">
       {/* Section Title */}
       <div className="flex justify-center my-20">
-        <h2 className="secondary-font text-5xl text-stone-50 relative">
+        <h2 className="secondary-font text-5xl text-stone-50 border-b-2 border-emerald-400 0.5">
           About Me
-          <span className="absolute left-0 w-full h-1 -bottom-2 rounded bg-emerald-400"></span>
         </h2>
       </div>
 

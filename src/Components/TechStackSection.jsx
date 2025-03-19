@@ -48,9 +48,8 @@ const TechStackSection = () => {
   return (
     <section className="my-30" id="technologies">
       <div className="flex justify-center my-20">
-        <h2 className="secondary-font text-5xl text-stone-50 my-4 relative">
+        <h2 className="secondary-font text-5xl text-stone-50 my-4 border-b-2 border-emerald-400 0.5">
           Technologies
-          <span className="absolute -left-1 w-full h-1 -bottom-3.5 rounded bg-emerald-400"></span>
         </h2>
       </div>
       <div className="grid grid-cols-4 gap-4 w-1/2 mx-auto max-lg:grid-cols-2">
