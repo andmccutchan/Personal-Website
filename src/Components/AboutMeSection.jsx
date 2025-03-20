@@ -1,13 +1,20 @@
 import React from "react";
+import { motion } from "motion/react";
 
 const AboutMeSection = () => {
   return (
     <section id="aboutme" className="py-12 px-4 my-12">
       {/* Section Title */}
       <div className="flex justify-center my-20">
-        <h2 className="secondary-font text-5xl text-stone-50 border-b-2 border-emerald-400 0.5">
+        <motion.h2
+          className="secondary-font text-5xl text-stone-50 border-b-2 border-emerald-400 0.5"
+          initial={{ opacity: 0, x: -500 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           About Me
-        </h2>
+        </motion.h2>
       </div>
 
       {/* Content Wrapper */}

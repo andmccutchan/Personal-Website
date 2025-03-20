@@ -66,9 +66,15 @@ const ProjectsSection = () => {
   return (
     <section className="w-3/4 mx-auto my-30" id="projects">
       <div className="flex justify-center my-20">
-        <h2 className="flex secondary-font text-5xl text-stone-50 border-b-2 border-emerald-400 0.5">
+        <motion.h2
+          className="flex secondary-font text-5xl text-stone-50 border-b-2 border-emerald-400 0.5"
+          initial={{ opacity: 0, x: 500 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           Projects
-        </h2>
+        </motion.h2>
       </div>
       <div className="flex flex-col gap-y-6">
         {projectInfo.map((project, index) => (

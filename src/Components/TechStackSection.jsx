@@ -1,5 +1,6 @@
 import React from "react";
 import TechCard from "./TechCard";
+import { motion } from "motion/react";
 
 const TechStackSection = () => {
   const technologies = [
@@ -48,9 +49,15 @@ const TechStackSection = () => {
   return (
     <section className="my-30" id="technologies">
       <div className="flex justify-center my-20">
-        <h2 className="secondary-font text-5xl text-stone-50 my-4 border-b-2 border-emerald-400 0.5">
+        <motion.h2
+          className="secondary-font text-5xl text-stone-50 my-4 border-b-2 border-emerald-400 0.5"
+          initial={{ opacity: 0, x: -500 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           Technologies
-        </h2>
+        </motion.h2>
       </div>
       <div className="grid grid-cols-4 gap-4 w-1/2 mx-auto max-lg:grid-cols-2">
         {technologies.map((tech, index) => (
