@@ -8,18 +8,15 @@ const Header = () => {
     setShowMenu((prev) => !prev);
   };
 
-  // Reset menu state when the window is resized to a width greater than the mobile breakpoint
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
-        setShowMenu(false); // Close the menu if width is larger than mobile size
+        setShowMenu(false);
       }
     };
 
-    // Attach resize listener
     window.addEventListener("resize", handleResize);
 
-    // Cleanup listener on component unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -72,7 +69,7 @@ const Header = () => {
                     href={`#${item.toLowerCase().replace(" ", "")}`}
                   >
                     {item}
-                    <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-emerald-400 transition-all duration-300 group-hover:w-full"></span>
+                    <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full"></span>
                   </a>
                 </li>
               )

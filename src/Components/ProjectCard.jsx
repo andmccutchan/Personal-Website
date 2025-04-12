@@ -2,19 +2,26 @@ import React, { useState } from "react";
 
 const ProjectCard = ({ title, image, description, githubLink, liveDemo }) => {
   const [viewDetails, setViewDetails] = useState(false);
-  const handleOpen = () => {};
 
   return (
     <div className="border border-gray-600 h-auto rounded-[8px] w-3/4 mx-auto bg-gray-800">
       <div className="flex w-full p-3 justify-between">
         <h3 className="text-gray-400 text-4xl">{title}</h3>
-        <a
-          className="flex justify-center items-center px-6 rounded border-2 border-emerald-600 bg-emerald-400 hover:bg-emerald-500"
-          href="/"
+        <button
+          className="flex justify-center items-center px-6 rounded-4xl bg-blue-400 hover:bg-blue-500"
+          onClick={() => setViewDetails((prev) => !prev)}
         >
           View Details
-        </a>
+        </button>
       </div>
+      {viewDetails && (
+        <div>
+          <hr className="w-full border-t border-gray-600 mx-auto" />
+          <div className="mx-10">
+            <h3 className="text-stone-50">Tech used:</h3>
+          </div>
+        </div>
+      )}
       <img
         src={image}
         alt={`${title} image`}

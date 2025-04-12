@@ -76,7 +76,7 @@ const ContactForm = () => {
 
         {/* Submit Button */}
         <button
-          className="bg-emerald-400 border-2 border-emerald-600 text-stone-900 w-1/2 mx-auto p-2 rounded mt-4 active:bg-emerald-500 hover:bg-emerald-500"
+          className="bg-blue-400 text-stone-900 w-1/2 mx-auto p-2 rounded mt-4 active:bg-blue-500 hover:bg-blue-500"
           type="submit"
         >
           Submit
