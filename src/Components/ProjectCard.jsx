@@ -4,7 +4,7 @@ const ProjectCard = ({ title, image, description, githubLink, liveDemo }) => {
   const [viewDetails, setViewDetails] = useState(false);
 
   return (
-    <div className="border border-gray-600 h-auto rounded-[8px] w-3/4 mx-auto bg-gray-800">
+    <div className="border border-gray-600 h-auto rounded-[8px] w-3/4 mx-auto bg-blue-950">
       <div className="flex w-full p-3 justify-between">
         <h3 className="text-gray-400 text-4xl">{title}</h3>
         <button
@@ -25,7 +25,7 @@ const ProjectCard = ({ title, image, description, githubLink, liveDemo }) => {
       <img
         src={image}
         alt={`${title} image`}
-        className="grayscale transition-all duration-300 hover:grayscale-0"
+        className="grayscale transition-all duration-300 hover:grayscale-0 object-cover"
       />
     </div>
     // <section className="my-6 bg-gray-700 p-6 rounded-2xl">

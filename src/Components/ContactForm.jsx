@@ -42,7 +42,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             id="nameBox"
-            className="text-stone-50 border border-gray-600 bg-gray-800 rounded px-2 py-1"
+            className="text-stone-50 border border-gray-600 bg-blue-950 rounded px-2 py-1"
             required
           />
         </div>
@@ -56,7 +56,7 @@ const ContactForm = () => {
             type="email"
             name="email"
             id="email"
-            className="text-stone-50 border border-gray-600 bg-gray-800 rounded px-2 py-1"
+            className="text-stone-50 border border-gray-600 bg-blue-950 rounded px-2 py-1"
             required
           />
         </div>
@@ -69,7 +69,7 @@ const ContactForm = () => {
           <textarea
             name="message"
             id="messageBox"
-            className="text-stone-50 border border-gray-600 bg-gray-800 rounded px-2 py-1 h-32"
+            className="text-stone-50 border border-gray-600 bg-blue-950 rounded px-2 py-1 h-32"
             required
           ></textarea>
         </div>

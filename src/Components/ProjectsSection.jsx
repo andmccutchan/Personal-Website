@@ -33,7 +33,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Dijkstra's Algorithm",
-      image: "/graph-project.png",
+      image: "/A-M.jpg",
       description: (
         <>
           <p>

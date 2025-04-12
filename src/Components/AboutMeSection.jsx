@@ -13,7 +13,7 @@ const AboutMeSection = () => {
       </svg>
       <section
         id="aboutme"
-        className="py-5 xl:px-50 lg:px-25 md:px-10 sm:px-10 bg-stone-200"
+        className="py-5 px-50 max-lg:px-25 max-sm:px-4 bg-stone-200"
       >
         {/* Section Title */}
         <div className="flex justify-center my-20">
