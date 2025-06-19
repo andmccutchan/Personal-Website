@@ -59,7 +59,7 @@ const TechStackSection = () => {
           Technologies
         </motion.h2>
       </div>
-      <div className="grid grid-cols-4 gap-4 w-1/2 mx-auto max-lg:grid-cols-2">
+      <div className="grid grid-cols-4 gap-4 w-1/2 max-sm:w-full max-sm:px-4 max-md:w-3/4 max-lg:w-3/4 mx-auto max-md:grid-cols-2">
         {technologies.map((tech, index) => (
           <TechCard key={index} imgUrl={tech.imgUrl} name={tech.name} />
         ))}

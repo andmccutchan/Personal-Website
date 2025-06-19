@@ -15,7 +15,7 @@ const App = () => {
       <div className="min-h-screen">
         <HeroSection />
         <AboutMeSection />
-        <ProjectsSection />
+        {/* <ProjectsSection /> */}
         <TechStackSection />
         <ContactMeSection />
       </div>
